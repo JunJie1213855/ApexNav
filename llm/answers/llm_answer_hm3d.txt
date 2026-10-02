@@ -1,0 +1,10 @@
+couch: ['chair', 'bed', 'bench', 'dining table', 0.6, 'living room']
+tv: ['laptop', 'picture frame', 'window', 0.45, 'living room']
+chair: ['couch', 'toilet', 'potted plant', 0.5, 'everywhere']
+toilet: ['chair', 'bench', 'potted plant', 'sink', 0.45, 'bathroom']
+bed: ['couch', 'dining table', 'bench', 0.65, 'bedroom']
+potted plant: ['lamp', 'teddy bear', 'toilet', 0.4, 'everywhere']
+# HM3D-v1 类别别名（对齐上面的 v2 命名，避免运行时调用 ollama）
+sofa: ['chair', 'bed', 'bench', 'dining table', 0.6, 'living room']
+tv_monitor: ['laptop', 'picture frame', 'window', 0.45, 'living room']
+plant: ['lamp', 'teddy bear', 'toilet', 0.4, 'everywhere']
